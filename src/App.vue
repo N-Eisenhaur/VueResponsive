@@ -7,9 +7,9 @@
         <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
-          <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <i class="fas fa-bars"></i><!--nav toggle button changenavbarResponsive-->
+        </button><!--js-scroll-trigger creates scroll animation -->
+        <div class="collapse navbar-collapse" id="navbarResponsive"><!--collapse navbar-collapse bootstrap for grouping and hiding navbar contents by a parent breakpoint.-->
           <ul class="navbar-nav text-uppercase ml-auto">
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#services">Services</a>
@@ -393,7 +393,7 @@
                     <li>Client: Threads</li>
                     <li>Category: Illustration</li>
                   </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <button class="btn btn-primary" data-dismiss="modal" type="button"><!--data-dismiss="modal" closes modal-->
                     <i class="fas fa-times"></i>
                     Close Project</button>
                 </div>
